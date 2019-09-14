@@ -1,0 +1,51 @@
+{
+    "properties": {
+        "restaurant_id": {
+            "type": "integer"
+        },
+        "name": {
+            "type": "text",
+            "analyzer": "kuromoji_analyzer"
+        },
+        "name_alphabet": {
+            "type": "text",
+            "analyzer": "kuromoji_analyzer"
+        },
+        "name_kana": {
+            "type": "text",
+            "analyzer": "kuromoji_analyzer"
+        },
+        "address": {
+            "type": "text",
+            "analyzer": "kuromoji_analyzer"
+        },
+        "description": {
+            "type": "text",
+            "analyzer": "kuromoji_analyzer"
+        },
+        "purpose": {
+            "type": "text",
+            "analyzer": "kuromoji_analyzer"
+        },
+        "category": {
+            "type": "text",
+            "analyzer": "whitespace"
+        },
+        "photo_count": {
+            "type": "integer"
+        },
+        "menu_count": {
+            "type": "integer"
+        },
+        "access_count": {
+            "type": "integer"
+        },
+        "closed": {
+            "type": "boolean"
+        },
+        "location": {
+            "type": "geo_point",
+            "store": "true"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "properties": {
+        "rating_id": {
+            "type": "integer"
+        },
+        "total": {
+            "type": "integer"
+        },
+        "food": {
+            "type": "integer"
+        },
+        "service": {
+            "type": "integer"
+        },
+        "atmosphere": {
+            "type": "integer"
+        },
+        "cost_performance": {
+            "type": "integer"
+        },
+        "title": {
+            "type": "text",
+            "analyzer": "kuromoji_analyzer"
+        },
+        "body": {
+            "type": "text",
+            "analyzer": "kuromoji_analyzer"
+        },
+        "purpose": {
+            "type": "text",
+            "analyzer": "kuromoji_analyzer"
+        }
+    }
+}
